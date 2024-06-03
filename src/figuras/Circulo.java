@@ -5,7 +5,7 @@ public class Circulo extends figurageometrica{ //Herencia
         super(valor1);
     }
 
-    @Override  //Polimorfismo
+    @Override  //Polimorfismogit 
     public double getArea(){
         double radio = super.getValor1();
         return  Math.PI * Math.pow(radio,2);
